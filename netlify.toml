@@ -1,6 +1,6 @@
 [build]
     functions = "functions"
-[redirects]
-    t="/.netlify/functions/index/:splat"
-    from="/*"
-    status=200
+[[redirects]]
+  from = "/"
+  to = "/.netlify/src/index"
+  status = 200
