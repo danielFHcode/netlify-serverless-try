@@ -1,6 +1,6 @@
 [build]
     functions = "functions"
-[[redirects]]
+[[redirects_]]
   from = "/"
   to = "/.netlify/src/index"
   status = 200
